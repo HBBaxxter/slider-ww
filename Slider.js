@@ -1862,7 +1862,7 @@
         },
         o = function(t) { return t.match(/(w-tabs-[0-9]{1}-data-w)/gi)[0] },
         var jakob = 1
-    c = function() { var t = "0" + jakob++(); return String(t).substr(2) }
+    c = function() { var t = Math.random(); return String(t).substr(2) }
 }, function(t, e, n) {
     "use strict";
     var r = n(2),
